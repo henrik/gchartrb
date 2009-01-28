@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name = "gchartrb"
-  s.version = "0.9"
+  s.version = "0.9.1"
   s.authors = ["Deepak Jois"]
   s.email = "deepak.jois@gmail.com"
-  s.date = "2008-06-16"
+  s.date = "2009-01-28"
   s.homepage = "http://code.google.com/p/gchartrb"
   s.summary = "Ruby Wrapper for the Google Chart API"
   s.description = "gchartrb is a Ruby wrapper around the Google Chart API, located at http://code.google.com/apis/chart/. Visit http://code.google.com/p/gchartrb to track development regarding gchartrb."

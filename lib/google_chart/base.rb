@@ -114,7 +114,7 @@ module GoogleChart
     # Returns a URL to access the chart.
     # Use +extras+ to add more parameters that may be unsupported or impossible to construct using gchartrb
     def to_url(extras={})
-      query = query_params.merge(extras).collect { |k, v| "#{k}=#{URI.escape(v)}" }.join("&")
+      query = query_params.merge(extras).collect { |k, v| "#{k}=#{URI.escape(v).gsub('&', '%26')}" }.join("&")
       "#{GoogleChart::URL}?#{query}"
     end
 
